@@ -5,6 +5,22 @@
   text-align: center;
 }
 
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 10rem 10rem 10rem 10rem 10rem;
+  grid-gap: 1rem;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.image {
+  width:150px;
+  height: 150px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
